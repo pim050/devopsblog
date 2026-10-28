@@ -1,0 +1,7 @@
+baseURL: https://example.org/
+locale: en-us
+title: My path into DevOps
+theme: rewired
+params:
+  author: Pim Komen
+  email: pim@pmkmn.nl
