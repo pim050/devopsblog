@@ -1,4 +1,4 @@
-name = "pimkomen-blog"    
+name = "devopsblog"    
 compatibility_date = "2025-09-06"    
     
 [[routes]]    
