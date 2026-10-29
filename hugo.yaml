@@ -25,11 +25,10 @@ languages:
       author: Pim Komen
       descriptionLines:
         - "Notes from my path into DevOps,"
-        - "documenting what I learn along the way."
-      tagline: "I write on the [blog](/posts/) about learning DevOps."
+      tagline: "documenting what I learn along the way."
       footer:
         text: "pimkomen.dev // made with ♥ and [Hugo](https://gohugo.io/) // theme [rewired](https://github.com/RigleGit/rewired)"
-        prompt: "pim@pimkomen.dev:~$"
+        prompt: "user@pimkomen.dev:~$"
       social:
         - name: GitHub
           url: https://github.com/pim050
