@@ -1,6 +1,6 @@
 ---
 date: '2026-10-28T11:50:32+01:00'
-draft: true
+draft: false
 title: 'My Hugo Website'
 ---
 
