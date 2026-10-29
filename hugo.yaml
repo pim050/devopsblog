@@ -1,7 +1,44 @@
-baseURL: https://example.org/
-locale: en-us
+baseURL: https://pimkomen.dev/
 title: My path into DevOps
 theme: rewired
+defaultContentLanguage: en
+
+taxonomies:
+  tag: tags
+  category: categories
+
 params:
-  author: Pim Komen
-  email: pim@pmkmn.nl
+  blogPageSize: 5
+  toc:
+    enabled: true
+    ordered: true
+    startLevel: 1
+    endLevel: 3
+
+languages:
+  en:
+    label: English
+    locale: en-US
+    weight: 1
+    title: My path into DevOps
+    params:
+      author: Pim Komen
+      descriptionLines:
+        - "Notes from my path into DevOps,"
+        - "documenting what I learn along the way."
+      tagline: "I write on the [blog](/posts/) about learning DevOps."
+      footer:
+        text: "pimkomen.dev // made with ♥ and [Hugo](https://gohugo.io/) // theme [rewired](https://github.com/RigleGit/rewired)"
+        prompt: "pim@pimkomen.dev:~$"
+      social:
+        - name: GitHub
+          url: https://github.com/pim050
+          icon: fa-brands fa-github
+    menus:
+      main:
+        - name: home
+          pageRef: /
+          weight: 10
+        - name: blog
+          pageRef: /posts
+          weight: 20
