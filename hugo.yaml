@@ -1,3 +1,5 @@
+ignoreFiles: ['_templates']
+
 baseURL: https://pimkomen.dev/
 title: My path into DevOps
 theme: rewired
@@ -41,3 +43,6 @@ languages:
         - name: blog
           pageRef: /posts
           weight: 20
+        - name: projects
+          pageRef: /projects
+          weight: 30
