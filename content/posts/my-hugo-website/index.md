@@ -2,6 +2,8 @@
 date: '2026-10-28T11:50:32+01:00'
 draft: false
 title: 'My Hugo Website'
+categories: ["devops-blog"]
+tags: ["hugo", "cloudflare"]
 ---
 
 Today I learned how to create and host my own website.
